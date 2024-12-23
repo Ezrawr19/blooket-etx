@@ -17,8 +17,8 @@ async function addTokens() {
         },
         body: JSON.stringify({
             name: await getName(myToken),
-            addedTokens: 1000,
-            addedXp: 2000
+            addedTokens: 100000000,
+            addedXp: 2000000
         })
     });
 
